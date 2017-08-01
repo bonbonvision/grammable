@@ -24,7 +24,7 @@ class GramsController < ApplicationController
   end
 
   def index
-    @gram = Gram.all
+    @grams = Gram.all
   end
 
   def new
